@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.part2{
+    padding: 0 36px;
+}
+.part2 h2{
+    font-family: 'Roboto Slab';
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 26px;
+}
+.lesson-list{
+    display: flex;
+    margin: 0 0 80px 0;
+}
+.h2_format {
+    margin: 0 0 0 0;
+}
+.course-time .duration {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+}
+.course-time ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.course-time li {
+    margin-right: 33px;
+}
+.course-time .duration {
+    margin: 0;
+}
+.course-time .duration1 {
+    margin: 0 0 34px 0;
+}
+.camera {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 45px 20%;
+}
+.shadow2 {
+    z-index: 1;
+    margin-top: -15px;
+    margin-left: 5px;
+    width: 171px;
+}
+.man2{
+    z-index: 100;
+    width: 170.55px;
+    height: 160.29px;
+}
+.camera2 {
+    display: none;
+}
+@media screen and (min-width: 376px) and (max-width: 992px) {
+    .camera {
+        margin: 20px 0 45px 35%;
+    }
+}
